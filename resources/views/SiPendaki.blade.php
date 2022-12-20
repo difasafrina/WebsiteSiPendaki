@@ -16,24 +16,18 @@
     <!-- Ini Bagian Navbar -->    
     <nav class="navbar navbar-expand-lg">
        <div class="container">
-         <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" style="width: 5pc; height: 5pc;"></a>
+         <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" style="width: 5pc; height: 5pc;">
+         <a class="nav-link" aria-current="page" href="#" style="color: #fff;">Si Pendaki</a></a>
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
            </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Si Pendaki</a>
-              </li>
-            </ul>
-
+            <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
+                <a class="nav-link" href="#" style="color: #fff;">Login</a>
               </li>
-
-              <li class="nav-item">
-                 <a class="nav-link" href="#">Daftar Gunung</a>
+                <li class="nav-item">
+                 <a class="nav-link" href="#" style="color: #fff;">Daftar Gunung</a>
               </li>
             </ul>
           </div>
@@ -62,12 +56,12 @@
         <div class="box">
             <div class="body">
                 <div class="imgContainer">
-                    <img src="https://images.pexels.com/photos/3601422/pexels-photo-3601422.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    <img src="img/G.Rinjani.jpg" alt="">
                 </div>
                 <div class="content d-flex flex-column align-items-center justify-content-center">
                     <div>
-                        <h3 class="text-white fs-5">Post Title</h3>
-                        <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                        <h3 class="text-white fs-5">Gunung Rinjani</h3>
+                        <p class="fs-6 text-white">Gunung Rinjani (3726 m) yang mendominasi dengan sebagian besar wilayahnya yang mengesankan di seluruh bagian utara Lombok, adalah gunung berapi tertinggi kedua di Indonesia.</p>
                     </div>
                 </div>
             </div>
@@ -76,12 +70,12 @@
         <div class="box">
             <div class="body">
                 <div class="imgContainer">
-                    <img src="https://images.pexels.com/photos/3601422/pexels-photo-3601422.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    <img src="img/G.Bromo.jpg" alt="">
                 </div>
                 <div class="content d-flex flex-column align-items-center justify-content-center">
                     <div>
-                        <h3 class="text-white fs-5">Post Title</h3>
-                        <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                        <h3 class="text-white fs-5">Gunung Bromo</h3>
+                        <p class="fs-6 text-white">Gunung berapi yang masih aktif yang berada di kawasan Taman Nasional Bromo Tengger Semeru. Gunung ini memiliki ketinggian 2.329 mdpl.Bentuk gunung ini ini unik karena terdiri dari lembah dan ngarai</p>
                     </div>
                 </div>
             </div>
@@ -90,17 +84,34 @@
         <div class="box">
             <div class="body">
                 <div class="imgContainer">
-                    <img src="https://images.pexels.com/photos/3601422/pexels-photo-3601422.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    <img src="img/G.JayaWijaya.jpg" alt="">
                 </div>
                 <div class="content d-flex flex-column align-items-center justify-content-center">
                     <div>
-                        <h3 class="text-white fs-5">Post Title</h3>
-                        <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                        <h3 class="text-white fs-5">Gunung Jaya Wijaya</h3>
+                        <p class="fs-6 text-white">Gunung yang berada di Papua memiliki nama lain yaitu Piramida Carstensz. Memiliki tinggi sekitar 4.884 mdpl, tidak heran jika gunung ini dikelilingi oleh gletser Carstensz yang merupakan satu – satunya gletser di iklim tropis, seperti di Indonesia.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <section class="cari-temen">
+        <div class="card text-center teman">
+            <div class="card-header teman-head">
+             <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="true" href="#">Pendaki</a>
+                </li>
+             </ul>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Mau naik gunung tapi enggak ada temen?</h5>
+                    <p class="card-text">Si Pendaki menghadirkan solusi untuk join trip bersama, Dakbar yuuk!</p>
+            </div>
+        </div>
+    </section>
+
 <!-- Ini Bagian Testimoni -->
   <section class="home-testimonial">
   <div class="container-fluid">
