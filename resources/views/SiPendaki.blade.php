@@ -13,6 +13,7 @@
   </head>
 
   <body>
+
     <!-- Ini Bagian Navbar -->    
     <nav class="navbar navbar-expand-lg">
        <div class="container">
@@ -35,6 +36,7 @@
     </nav>
 
     <!-- Ini Bagian Container 1 -->
+<section class="gunung">
         <div class="container" style="padding-top: 50px">
             <h1 style="text-align: center;">Explore Gunung Indonesia</h1>
             <p style="text-align: center">Sahabat Pendaki Indonesia</p>
@@ -97,19 +99,13 @@
     </div>
 
     <section class="cari-temen">
-        <div class="card text-center teman">
-            <div class="card-header teman-head">
-             <ul class="nav nav-tabs card-header-tabs">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="true" href="#">Pendaki</a>
-                </li>
-             </ul>
-            </div>
+    <div class="card text-center">
+        <h5 class="card-header">Si Pendaki</h5>
             <div class="card-body">
-                <h5 class="card-title">Mau naik gunung tapi enggak ada temen?</h5>
-                    <p class="card-text">Si Pendaki menghadirkan solusi untuk join trip bersama, Dakbar yuuk!</p>
+                <h5 class="card-title">Informasi seputar gunungan dan pendakian</h5>
+                 <p class="card-text">Si Pendaki memberikan informasi lengkap dengan maps offline ^^</p>
             </div>
-        </div>
+    </div>
     </section>
 
 <!-- Ini Bagian Testimoni -->
@@ -126,9 +122,9 @@
                   <div class="col-md-4 style-3">
                       <div class="tour-item ">
                           <div class="tour-desc bg-white">
-                              <div class="tour-text color-grey-3 text-center">&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..&rdquo;</div>
-                              <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/6625914/pexels-photo-6625914.jpeg" alt=""></div>
-                              <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                              <div class="tour-text color-grey-3 text-center">  Naik gunung itu bukan soal fisik atau instastory tapi soal edukasi, edukasi dalam naik gunung itu lebih penting daripada fisik dan mental karena hutan atau gunung itu bersikap sesuai apa sikap kita jadi.</div>
+                              <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="img/ganes.jpg" alt=""></div>
+                              <div class="link-name d-flex justify-content-center">Ganesh Lindung</div>
                               <div class="link-position d-flex justify-content-center">Student</div>
                           </div>
                       </div>
@@ -136,9 +132,9 @@
                   <div class="col-md-4 style-3">
                       <div class="tour-item ">
                           <div class="tour-desc bg-white">
-                              <div class="tour-text color-grey-3 text-center">&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..&rdquo;</div>
-                              <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
-                              <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                              <div class="tour-text color-grey-3 text-center">Sebelum mnedaki cari informasi seputar gunung yang mau di daki, selengakap mungkin sebagi antisipasi supaya hal-hal yang tidak di ingiinkan tidak terjadi. Salah satu sumber yang membantu web ini, Si Pendaki.</div>
+                              <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="img/ayas.jpeg" alt=""></div>
+                              <div class="link-name d-flex justify-content-center">Muhammad Ayyas</div>
                               <div class="link-position d-flex justify-content-center">Student</div>
                           </div>
                       </div>
@@ -146,17 +142,17 @@
                   <div class="col-md-4 style-3">
                       <div class="tour-item ">
                           <div class="tour-desc bg-white">
-                              <div class="tour-text color-grey-3 text-center">&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..&rdquo;</div>
-                              <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
-                              <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
-                              <div class="link-position d-flex justify-content-center">Student</div>
+                              <div class="tour-text color-grey-3 text-center">Gunung itu punya sesuatu yang tidak ada dibelahan bumi manapun, sayapun tidak tau itu apa akan tetapi sesuatu itu yang menarik saya untuk kembali menginjakkan kaki di sebuah wilayah yang saya pun gatau kemana dan dimana saya akan pergi, bukan sebagai pendaki tapi sebagai penikmat ciptaan tuhan</div>
+                              <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="img/arafah.jpg" alt=""></div>
+                              <div class="link-name d-flex justify-content-center">Arafah Rianti</div>
+                              <div class="link-position d-flex justify-content-center">Selebriti</div>
                           </div>
                       </div>
                   </div>
               </div>
       </section>
   </section>
-
+  </section>
 
   <footer class="footer">
     <div class="footer-left">
