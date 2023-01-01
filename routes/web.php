@@ -25,6 +25,10 @@ Route::get('/demo', function () {
     return view('master');
 });
 
+Route::get('/informasi', function() {
+    return view('info');
+});
+
 Route::get('/login', function() {
     return view('Login');
 });

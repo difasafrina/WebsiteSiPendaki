@@ -17,7 +17,7 @@
     <!-- Ini Bagian Navbar -->    
     <nav class="navbar navbar-expand-lg">
        <div class="container">
-         <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" style="width: 5pc; height: 5pc;">
+         <a class="navbar-brand" href="#"><img src="img/daki.png" alt="" style="width: 5pc; height: 5pc;">
          <a class="nav-link" aria-current="page" href="#" style="color: #fff;">Si Pendaki</a></a>
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
@@ -27,8 +27,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="#" style="color: #fff;">Login</a>
               </li>
-                <li class="nav-item">
+              <li class="nav-item">
                  <a class="nav-link" href="#" style="color: #fff;">Daftar Gunung</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="/informasi" style="color: #fff;">Informasi</a>
               </li>
             </ul>
           </div>
@@ -72,12 +75,12 @@
         <div class="box">
             <div class="body">
                 <div class="imgContainer">
-                    <img src="img/G.Bromo.jpg" alt="">
+                    <img src="img/Raung3.jpg" alt="">
                 </div>
                 <div class="content d-flex flex-column align-items-center justify-content-center">
                     <div>
-                        <h3 class="text-white fs-5">Gunung Bromo</h3>
-                        <p class="fs-6 text-white">Gunung berapi yang masih aktif yang berada di kawasan Taman Nasional Bromo Tengger Semeru. Gunung ini memiliki ketinggian 2.329 mdpl.Bentuk gunung ini ini unik karena terdiri dari lembah dan ngarai</p>
+                        <h3 class="text-white fs-5">Gunung Raung</h3>
+                        <p class="fs-6 text-white">Gunung Raung merupakan gunung dengan puncak tertinggi di kawasan Pegunungan Ijen dengan puncak tertinggi: 3.344 mdpl. Gunung Raung terkenal memiliki jalur pendakian yang ekstrem.</p>
                     </div>
                 </div>
             </div>
@@ -86,16 +89,59 @@
         <div class="box">
             <div class="body">
                 <div class="imgContainer">
-                    <img src="img/G.JayaWijaya.jpg" alt="">
+                    <img src="img/Semeru2.jpg" alt="">
                 </div>
                 <div class="content d-flex flex-column align-items-center justify-content-center">
                     <div>
-                        <h3 class="text-white fs-5">Gunung Jaya Wijaya</h3>
-                        <p class="fs-6 text-white">Gunung yang berada di Papua memiliki nama lain yaitu Piramida Carstensz. Memiliki tinggi sekitar 4.884 mdpl, tidak heran jika gunung ini dikelilingi oleh gletser Carstensz yang merupakan satu – satunya gletser di iklim tropis, seperti di Indonesia.</p>
+                        <h3 class="text-white fs-5">Gunung Semeru</h3>
+                        <p class="fs-6 text-white">Gunung Semeru atau Gunung Meru dengan puncaknya Mahameru, 3.676 mdpl. Gunung Semeru memiliki daya tarik seperti panorama padang lavender hingga Danau Ranu Kumbolo.</p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="box">
+            <div class="body">
+                <div class="imgContainer">
+                    <img src="img/Batur.jpg" alt="">
+                </div>
+                <div class="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h3 class="text-white fs-5">Gunung Batur</h3>
+                        <p class="fs-6 text-white">Gunung Batur adalah gunung tertinggi kedua di Pulau Bali dengan ketinggiannya 1.717 mdpl. Gunung Batur memiliki pemandangan menarik seperti black lava, danau batur, pemendian air panas dll.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="body">
+                <div class="imgContainer">
+                    <img src="img/Prau1.jpg" alt="">
+                </div>
+                <div class="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h3 class="text-white fs-5">Gunung Prau</h3>
+                        <p class="fs-6 text-white">Gunung Prau memiliki ketinggian kurang lebih 2.565 mdpl. Gunung ini cocok untuk pendaki amatir dan pemula. Daya tarik selain bukit teletubies di gunung prau juga mudah menemukan bunga lonte sore.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="body">
+                <div class="imgContainer">
+                    <img src="img/Gede2.png" alt="">
+                </div>
+                <div class="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h3 class="text-white fs-5">Gunung Gede</h3>
+                        <p class="fs-6 text-white">Gunung Gede merupakan sebuah gunung api bertipe stratovolcano, gunung ini memiliki ketinggian kurang lebih 2.958 mdpl. Selain telaga biru ada juga air terjun cibeurem yang menjadi daya tarik.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <section class="cari-temen">
@@ -156,7 +202,7 @@
 
   <footer class="footer">
     <div class="footer-left">
-      <img src="img/logo.png" alt="" style="width: 50% ;">
+      <img src="img/daki.png" alt="" style="width: 50% ;">
     </div>
     <div class="footer-center">
             <div>
@@ -181,12 +227,9 @@
       <div class="media">
             <a href="#"><i class="fa fa-facebook"></i></a>
             <a href="#"><i class="fa fa-instagram"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
       </div>  
     </div>
     </footer>
-
-
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
